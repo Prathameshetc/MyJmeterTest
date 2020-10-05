@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  'C:\JMeter\apache-jmeter-5.3\bin\jmeter.bat -n -t C:\JMeter\apache-jmeter-5.3\bin\GitTestscript.jmx  -l testNewGit.jtl'
+}
